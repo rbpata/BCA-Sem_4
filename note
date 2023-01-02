@@ -1,0 +1,4 @@
+git add --all
+git commit -m "some message"
+git push -f "remotename" master
+
