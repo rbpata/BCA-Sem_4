@@ -1,4 +1,7 @@
 git add --all
 git commit -m "some message"
-git push -f "remotename" master
+git push remotename master
 
+if(error occurs){
+    git push -f remotename master
+}
