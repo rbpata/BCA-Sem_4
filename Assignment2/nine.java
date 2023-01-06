@@ -18,7 +18,7 @@ public class nine {
         for(int i=0;i<no;i++)
         {
             System.out.print("\nEnter "+(i+1)+" Name :- ");
-            str[i] = ch.next();
+            str[i] = sc.next();
         }
 
         Arrays.sort(str);
