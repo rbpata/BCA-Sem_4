@@ -5,3 +5,5 @@ git push remotename master
 if(error occurs){
     git push -f remotename master
 }
+
+->> git status (to know the branch and new commits)

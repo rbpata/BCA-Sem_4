@@ -17,9 +17,12 @@ public class second {
 
         second obj = new second();
 
-        
-        obj.match(str, str.length()-1);
-
+        try{
+        obj.match(str, str.length()-2);
+        }
+        catch(Exception e){
+            System.out.println("Error!! length is not same...");
+        }
 
     }
 }
