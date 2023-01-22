@@ -7,3 +7,16 @@ if(error occurs){
 }
 
 ->> git status (to know the branch and new commits)
+
+** To Add remote :-
+->>git remote add remote_name url_of_github
+
+** To delete remote 
+->> git remote rm remote_name;
+
+** To rename remote
+->> git remote rename remote_name new_remote_name
+
+
+
+
