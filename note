@@ -8,8 +8,13 @@ if(error occurs){
 
 ->> git status (to know the branch and new commits)
 
-** To Add remote :-
-->>git remote add remote_name url_of_github
+** To Add/create remote :-
+->>first initialize the local repo then create remote.
+{
+	->>git init
+	->>git remote add remote_name url_of_github
+}
+
 
 ** To delete remote 
 ->> git remote rm remote_name;
